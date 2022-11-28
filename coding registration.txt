@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align:webkit-center;background-color:purple;">
+    <fieldset style="width:50%;">
+        <legend>Registration Details</legend>
+        <table>
+            <tr>
+                <td style="text-align:right ;">
+                    <label for="University">Universiy :</label>
+                </td>
+                <td>
+                    <input type="text" name="university">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                     <label for="Institute">Institute :</label>
+                </td>
+                <td>
+                    <input type="text" name="Institute">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="Branch">Branch :</label>
+                 </td>
+                 <td>
+                    <select name="Branch" value="select">
+                        <option value="select">---select---</option>
+                        <option value="select">I.T.</option>
+                        <option value="select">C.E</option>
+                        <option value="select">M.E</option>
+                        <option value="select">E.E</option>
+                        <option value="select">Civil</option>
+                    </select>
+                 </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <lable for="Degree">Degree :</lable>
+                </td>
+                <td>
+                    <select name="Degree" value="select">
+                        <option value="select">---select---</option> 
+                        <option value="select">DIPLOMA</option>
+                        <option value="select">B.E</option>
+                        <option value="select">M.E</option>
+                        <option value="select">PHD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="cpi">Average cpi</label>
+                </td>
+                <td>
+                    <input type="text" name="cpi">
+                    <label for="sem">Upto</label>
+                    <input type="text" name="sem">TH Semester
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="Experience">Experience :</label>
+                </td>
+                <td>
+                    <input type="text" name="Experience">Year
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="web">Your Website or Blog :</label>
+                </td>
+                <td>
+                    <input type="text" name="web" placeholder="http://www.google.com">
+                </td>
+            </tr>
+        </table>
+     </fieldset>
+</body>
+</html>
